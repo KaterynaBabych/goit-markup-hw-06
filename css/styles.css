@@ -390,6 +390,7 @@ address {
   background-image: url(../images/icon-check.svg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
   border-color: #2196f3;
   background-origin: border-box;
 }
