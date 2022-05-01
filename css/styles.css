@@ -387,8 +387,9 @@ address {
 }
 .checkbox:checked + .check-mark {
   background-color: var(--acent-color);
-  background-image: url('./images/icon-check.svg');
-  background-size: contain;
+  background-image: url('/images/Vector.png');
+  background-repeat: no-repeat;
+  background-position: center;
   border-color: #2196f3;
   background-origin: border-box;
 }
