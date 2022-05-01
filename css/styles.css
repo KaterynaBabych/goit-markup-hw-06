@@ -261,6 +261,9 @@ address {
   transform: translate(-50%, -50%) scale(0);
 }
 .icon-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
   padding: 0;
   margin: 0;
   border: none;
@@ -277,10 +280,9 @@ address {
 }
 .modal-icon {
   position: absolute;
-  top: 8px;
-  right: 8px;
-  /* border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%; */
+  top: 5px;
+  right: 5px;
+
   background-color: #fff;
 }
 /* Форма модалки */
@@ -358,6 +360,11 @@ address {
   margin-bottom: 25px;
   font-size: 14px;
 }
+.checkbox-mark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .checkbox {
   position: absolute;
   width: 1px;
@@ -372,6 +379,7 @@ address {
 }
 .check-mark {
   display: inline-block;
+  margin-right: 8px;
   width: 16px;
   height: 15px;
   border: 2px solid var(--title-text-color);
@@ -387,6 +395,7 @@ address {
 .link-modal {
   color: var(--acent-color);
   text-decoration: underline;
+  padding-left: 2px;
 }
 .button-send {
   width: 200px;
